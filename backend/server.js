@@ -10,7 +10,7 @@ app.use(express.json());
 
 // ✅ Initialize Gemini SDK
 const ai = new GoogleGenAI({
-    apiKey: process.env.GEMINI_API_KEY
+    apiKey: process.env.GOOGLE_API_KEY
 });
 
 app.post("/meaning", async (req, res) => {
