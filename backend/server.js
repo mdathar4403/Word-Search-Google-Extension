@@ -12,7 +12,7 @@ app.use(express.json());
 const ai = new GoogleGenAI({
     apiKey: process.env.GOOGLE_API_KEY
 });
-console.log("API KEY:", process.env.GOOGLE_API_KEY);
+
 
 const meaningHistory = [];
 

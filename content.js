@@ -82,7 +82,7 @@ async function fetchAI() {
     showTooltip(word, "Loading...");
 
     try {
-        let res = await fetch("http://localhost:3000/meaning", {
+        let res = await fetch("https://word-search-google-extension-1.onrender.com/meaning", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ word })
