@@ -8,7 +8,7 @@
     "128": "icons/icon-128.png"
   },
   "permissions": ["activeTab", "storage", "scripting"],
-  "host_permissions": ["https://word-search-google-extension.onrender.com/*"],
+  "host_permissions": ["http://localhost:3000/*"],
 
   "content_scripts": [
     {
